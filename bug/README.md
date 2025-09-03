@@ -37,7 +37,7 @@ make run_O0 CXX=<your_compiler> OBJDUMP=<your_objdump>
 Each target performs the following steps:
 
 1. Compiles `bug.c`.
-2. Generates a disassembly of the compiled binary as `bug.disasm`.
+2. Generates a disassembly of the compiled binary as `bugO*.disasm`.
 3. Runs the program on gem5 using the `gem5_core.py` script.
 
 ## Example Usage
