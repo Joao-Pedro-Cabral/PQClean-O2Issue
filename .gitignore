@@ -11,3 +11,7 @@ bin/
 
 __pycache__
 testcases/
+
+bug/m5out
+bug/bug
+bug/bug.disasm
