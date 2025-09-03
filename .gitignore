@@ -14,4 +14,4 @@ testcases/
 
 bug/m5out
 bug/bug
-bug/bug.disasm
+bug/bug*.disasm
