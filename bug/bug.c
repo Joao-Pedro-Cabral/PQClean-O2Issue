@@ -8,7 +8,7 @@ int main() {
   for (int i = 0; i < 56; i ++) {
       tmp[i] = 37*i;
   }
-
+  // The issue happens in this loop
   for (int i = 0; i < 14; i ++) {
       uint32_t w;
       w = (uint32_t)tmp[(i << 2) + 0]

@@ -1,7 +1,7 @@
 
-CXX := riscv64-unknown-linux-musl-gcc
+CXX ?= riscv64-unknown-linux-musl-gcc
 CXXFLAGS := -g -static -Wall -Wextra
-OBJDUMP := riscv64-unknown-linux-musl-objdump
+OBJDUMP ?= riscv64-unknown-linux-musl-objdump
 GEM5 := $(GEM5_PATH)/build/RISCV/gem5.opt
 
 .PHONY: run_O0 run_O2
